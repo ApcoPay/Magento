@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <apcopay>
+                <active>1</active>
+                <title>Apcopay</title>
+                <order_status>pending_payment</order_status>
+                <payment_action>authorize</payment_action>
+                <model>Apcopay\Magento\Model\Payment</model>
+                <group>offline</group>
+                <can_authorize>1</can_authorize>
+                <can_capture>1</can_capture>
+                <is_gateway>1</is_gateway>
+                <merch_id />
+                <merch_pass backend_model="Magento\Config\Model\Config\Backend\Encrypted"/>
+                <profile_id />
+                <fastpay_secret backend_model="Magento\Config\Model\Config\Backend\Encrypted"/>
+                <fastpay_language>en</fastpay_language>
+                <fastpay_transaction_type>1</fastpay_transaction_type>
+                <fastpay_cards_list>0</fastpay_cards_list>
+                <fastpay_card_restrict>0</fastpay_card_restrict>
+                <fastpay_retry>1</fastpay_retry>
+                <fastpay_new_card_1_try>1</fastpay_new_card_1_try>
+                <fastpay_new_card_on_fail>1</fastpay_new_card_on_fail>
+            </apcopay>
+        </payment>
+    </default>
+</config>
