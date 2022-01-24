@@ -6,7 +6,7 @@
             <group id="apcopay" translate="label" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Apcopay</label>
                 <comment>
-                    <![CDATA[Send an email to <a target="_blank" href="mailto:hello@apcopay.eu">hello@apcopay.eu</a> to set up a merchant account with ApcoPay.]]>
+                    <![CDATA[Send an email to <a target="_blank" href="mailto:hello@apcopay.com">hello@apcopay.com</a> to set up a merchant account with ApcoPay.]]>
                 </comment>
                 <field id="active" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Enabled</label>

@@ -2,9 +2,9 @@
     "name": "apcopay/magento",
     "description": "Apcopay payment gateway extension for Magento",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
-    "homepage": "https://www.apcopay.eu/",
+    "homepage": "https://www.apcopay.com/",
     "require": {
     },
     "autoload": {
