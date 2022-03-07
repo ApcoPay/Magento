@@ -6,6 +6,5 @@
           <module name="Magento_Sales"/>
           <module name="Magento_Quote"/>
           <module name="Magento_Vault"/>
-          <module name="Magento_Payment"/>
     </module>
 </config>

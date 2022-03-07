@@ -6,9 +6,6 @@
     "license": "MIT",
     "homepage": "https://www.apcopay.com/",
     "require": {
-        "magento/module-payment": "100.*",
-        "magento/module-checkout": "100.*",
-        "magento/module-sales": "100.*"
     },
     "autoload": {
         "files": [
